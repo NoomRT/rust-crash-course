@@ -32,6 +32,7 @@ fn main() {
     // Character
     // Declared with single quote
     let c: char = 'c';
+    let e: char = '🦀';
 
     // Type conversion
     let i: i32 = -1;
