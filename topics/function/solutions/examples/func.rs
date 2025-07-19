@@ -4,6 +4,10 @@ fn add_with_return(x: u32, y: u32) -> u32 {
     return x + y;
 }
 
+fn add_with_return_mutiple_output(x: u32, y: u32) -> (u32, bool) {
+    return (x + y, bool);
+}
+
 fn add(x: u32, y: u32) -> u32 {
     // Implicitly returns the last statement without a semicolo
     x + y
