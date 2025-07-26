@@ -11,8 +11,8 @@ impl Rectangle {
         Self {
             top: 0,
             left: 0,
-            width: width,
-            height: height,
+            width,
+            height,
         }
     }
 
